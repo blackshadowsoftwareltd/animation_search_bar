@@ -1,6 +1,6 @@
 # animation_search_bar
 
-A new Flutter package project.
+A Customizable Animated Search Bar. It is suitable for the AppBar.
 
 ## Getting Started
 
