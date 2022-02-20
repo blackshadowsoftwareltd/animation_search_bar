@@ -1,7 +1,7 @@
 library animation_search_bar;
 
-import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import 'services.dart';
 
