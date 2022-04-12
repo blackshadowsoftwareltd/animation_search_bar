@@ -20,49 +20,46 @@ AnimationSearchBar(
 ### All properties of this package
 ```dart
 AnimationSearchBar(
-   ///! required
+   ///! Required
    onChanged: (text) => debugPrint(text),
    searchTextEditingController: controller,
 
-   ///! optional
-   //? back button
+   ///! Optional
+   //? Back Button
    backIcon: Icons.arrow_back_ios_new,
    backIconColor: Colors.white,
    isBackButtonVisible: true,
-   previousScreen:
-       null, //?It will push and replace this screen when pressing the back button
-   //? close button
+   previousScreen: null, //? It will push and replace this screen when pressing the back button
+   //? Close Button
    closeIconColor: Colors.white,
-   //? center title
-   centerTitle: 'App Title', hintText: 'Search here...',
+   //? Center Title
+   centerTitle: 'App Title', 
+   hintText: 'Search here...',
    centerTitleStyle: const TextStyle(
-       fontWeight: FontWeight.w500,
-       color: Colors.white,
-       fontSize: 20),
-   //? search hint text
+     fontWeight: FontWeight.w500,color: Colors.white, fontSize: 20),
+   //? Search hint text
    hintStyle: const TextStyle(
-       color: Colors.white, fontWeight: FontWeight.w300),
-   //? search text
+     color: Colors.white, fontWeight: FontWeight.w300),
+   //? Search Text
    textStyle: const TextStyle(
-       color: Colors.white, fontWeight: FontWeight.w300),
-   //? cursor
+     color: Colors.white, fontWeight: FontWeight.w300),
+   //? Cursor color
    cursorColor: Colors.lightBlue.shade300,
-   //? duration
+   //? Duration
    duration: const Duration(milliseconds: 500),
-   //?
-   searchFieldHeight: 35,
+   //? Height, Width & Padding
+   searchFieldHeight: 35, //? Total height of the search field
+   searchBarHeight: 50, //? Total height of this Widget
+   searchBarWidth: MediaQuery.of(context).size.width - 20, //? Total width of this Widget
    horizontalPadding: 5,
-   searchBarHeight: 50,
-   searchBarWidth: MediaQuery.of(context).size.width - 20,
    verticalPadding: 0,
-   //? search icon
+   //? Search icon color
    searchIconColor: Colors.white.withOpacity(.7),
-   //? field decoration
+   //? Search field background decoration
    searchFieldDecoration: BoxDecoration(
-       color: Colors.blueGrey.shade700,
-       border: Border.all(
-           color: Colors.black.withOpacity(.2), width: .5),
-       borderRadius: BorderRadius.circular(15)),
+     color: Colors.blueGrey.shade700,
+     border: Border.all(color: Colors.black.withOpacity(.2), width: .5),
+     borderRadius: BorderRadius.circular(15)),
    )
 ```
 
