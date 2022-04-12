@@ -16,7 +16,7 @@ AnimationSearchBar(
 | 
 ![Untitled video ‐ Made with Clipchamp](https://user-images.githubusercontent.com/76734056/163029017-a0ed4266-d4ce-4d23-9121-3aa6c414a171.gif)
 |
-![Untitled video ‐ Made with Clipchamp](https://user-images.githubusercontent.com/76734056/163029017-a0ed4266-d4ce-4d23-9121-3aa6c414a171.gif)
+![Dark ‐ Made with Clipchamp](https://user-images.githubusercontent.com/76734056/163030808-c9a4ed63-ce36-4b1a-9945-65cb1e18d93b.gif)
 |
 
 ### All properties of this package
