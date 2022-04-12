@@ -14,9 +14,7 @@ AnimationSearchBar(
    horizontalPadding: 5)
 ```
  
-
-https://user-images.githubusercontent.com/76734056/163027646-49246394-032d-4077-b971-baedf29a54d2.mp4
-
+![Untitled video ‐ Made with Clipchamp](https://user-images.githubusercontent.com/76734056/163029017-a0ed4266-d4ce-4d23-9121-3aa6c414a171.gif)
 
 ### All properties of this package
 ```dart
@@ -66,5 +64,8 @@ AnimationSearchBar(
        borderRadius: BorderRadius.circular(15)),
    )
 ```
+
+
+
 
  
