@@ -13,8 +13,10 @@ AnimationSearchBar(
    searchTextEditingController: controller,
    horizontalPadding: 5)
 ```
- 
+  <div class="row">  
 ![Untitled video ‐ Made with Clipchamp](https://user-images.githubusercontent.com/76734056/163029017-a0ed4266-d4ce-4d23-9121-3aa6c414a171.gif)
+![Untitled video ‐ Made with Clipchamp](https://user-images.githubusercontent.com/76734056/163029017-a0ed4266-d4ce-4d23-9121-3aa6c414a171.gif)
+    </div> 
 
 ### All properties of this package
 ```dart
