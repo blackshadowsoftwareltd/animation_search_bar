@@ -21,3 +21,6 @@
 ## 0.0.7
 
 * The Documentation and Example was improved.
+## 0.0.8
+
+* The Documentation and Example was improved.
