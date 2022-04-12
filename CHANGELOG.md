@@ -12,3 +12,6 @@
 ## 0.0.4
 
 * TODO: Describe release.
+## 0.0.5
+
+* The Documentation and Example was improved.
