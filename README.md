@@ -13,7 +13,7 @@ AnimationSearchBar(
    searchTextEditingController: controller,
    horizontalPadding: 5)
 ```
-https://user-images.githubusercontent.com/76734056/162952171-843c38e1-bfd5-4aad-9103-44e615a0b4a5.mp4
+<!-- https://user-images.githubusercontent.com/76734056/162952171-843c38e1-bfd5-4aad-9103-44e615a0b4a5.mp4 -->
 ### All properties of this package
 ```dart
 AnimationSearchBar(
@@ -63,6 +63,6 @@ AnimationSearchBar(
    )
 ```
 
-
+<!-- 
 https://user-images.githubusercontent.com/76734056/162973382-9e34aee4-8d3e-4d75-9c56-d1ad26e50711.mp4
-
+ -->
