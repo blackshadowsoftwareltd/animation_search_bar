@@ -14,6 +14,10 @@ AnimationSearchBar(
    horizontalPadding: 5)
 ```
  
+
+https://user-images.githubusercontent.com/76734056/163027646-49246394-032d-4077-b971-baedf29a54d2.mp4
+
+
 ### All properties of this package
 ```dart
 AnimationSearchBar(
