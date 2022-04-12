@@ -24,12 +24,12 @@ AnimationSearchBar(
    onChanged: (text) => debugPrint(text),
    searchTextEditingController: controller,
 
-   ///! Optional
+   ///! Optional. For more customization
    //? Back Button
    backIcon: Icons.arrow_back_ios_new,
    backIconColor: Colors.white,
    isBackButtonVisible: true,
-   previousScreen: null, //? It will push and replace this screen when pressing the back button
+   previousScreen: null, // It will push and replace this screen when pressing the back button
    //? Close Button
    closeIconColor: Colors.white,
    //? Center Title
@@ -48,9 +48,9 @@ AnimationSearchBar(
    //? Duration
    duration: const Duration(milliseconds: 500),
    //? Height, Width & Padding
-   searchFieldHeight: 35, //? Total height of the search field
-   searchBarHeight: 50, //? Total height of this Widget
-   searchBarWidth: MediaQuery.of(context).size.width - 20, //? Total width of this Widget
+   searchFieldHeight: 35, // Total height of the search field
+   searchBarHeight: 50, // Total height of this Widget
+   searchBarWidth: MediaQuery.of(context).size.width - 20, // Total width of this Widget
    horizontalPadding: 5,
    verticalPadding: 0,
    //? Search icon color
