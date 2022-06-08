@@ -24,3 +24,6 @@
 ## 0.0.8
 
 * The Documentation and Example was improved.
+## 0.0.9
+
+* The Documentation and Example was improved.
