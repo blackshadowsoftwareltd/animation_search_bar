@@ -63,6 +63,9 @@ AnimationSearchBar(
    )
 ```
 
+#### Background Color
+
+If you want to customize the background color. Please see the example where I decorate a Container for the search bar background. you can decorate as your wish.
 
 
 

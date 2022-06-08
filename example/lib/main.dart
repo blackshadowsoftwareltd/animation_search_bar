@@ -29,20 +29,20 @@ class _HomeState extends State<Home> {
             preferredSize: const Size(double.infinity, 65),
             child: SafeArea(
                 child: Container(
-                    decoration:
-                        const BoxDecoration(color: Colors.white, boxShadow: [
-                      BoxShadow(
-                          color: Colors.black26,
-                          blurRadius: 5,
-                          spreadRadius: 0,
-                          offset: Offset(0, 5))
-                    ]),
-                    child: Center(
-                        child: AnimationSearchBar(
-                            backIconColor: Colors.black,
-                            centerTitle: 'App Title',
-                            onChanged: (text) => debugPrint(text),
-                            searchTextEditingController: controller,
-                            horizontalPadding: 5))))));
+              decoration: const BoxDecoration(color: Colors.white, boxShadow: [
+                BoxShadow(
+                    color: Colors.black26,
+                    blurRadius: 5,
+                    spreadRadius: 0,
+                    offset: Offset(0, 5))
+              ]),
+              alignment: Alignment.center,
+              child: AnimationSearchBar(
+                  backIconColor: Colors.black,
+                  centerTitle: 'App Title',
+                  onChanged: (text) => debugPrint(text),
+                  searchTextEditingController: controller,
+                  horizontalPadding: 5),
+            ))));
   }
 }
