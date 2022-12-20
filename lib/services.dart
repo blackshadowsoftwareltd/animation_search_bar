@@ -1,10 +1,11 @@
 import 'package:flutter/foundation.dart';
 
-class ServicesController extends ChangeNotifier {
-  bool isSearching = false;
+bool _isSearching = false;
 
+class ServicesController extends ChangeNotifier {
+  bool get isSearching => _isSearching;
   void setIsSearching(bool value) {
-    isSearching = value;
+    _isSearching = value;
     notifyListeners();
   }
 }
