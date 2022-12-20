@@ -1,9 +1,9 @@
 library animation_search_bar;
 
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/cupertino.dart' show CupertinoPageRoute;
 import 'package:flutter/material.dart';
 
-import 'services.dart';
+import 'services.dart' show ServicesController;
 
 // ignore: must_be_immutable
 class AnimationSearchBar extends StatelessWidget {
